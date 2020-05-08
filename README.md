@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+    Middleware and routers.
+
 - [ ] Describe Middleware?
+
+    Reusable functions that express recognizes and passes in (req, res, next) as the parameters. They can be used to perform checks for validation and handle errors among other things.
 
 - [ ] Describe a Resource?
 
+    A resource is the data located at an endpoint that the client is trying to reach.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+    res.status(200).json({message: "success"})
+
 - [ ] How can we partition our application into sub-applications?
+
+    By using Express Routers to make our code more modular.
 
 ## Minimum Viable Product
 
